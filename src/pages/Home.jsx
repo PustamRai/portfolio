@@ -6,11 +6,11 @@ function Home() {
   return (
     <div className="bg-gray-900 text-white">
       <div className="py-10 p-10 md:px-52 min-h-screen">
-        <div className="flex justify-center">
+        <div className="flex justify-center shadow-lg">
           <img
             src={ProfilePic}
             alt="profilePic"
-            className="w-30 h-auto md:w-50  rounded-full border-4 border-blue-500 shadow-lg"
+            className="w-30 h-auto md:w-50 rounded-full  shadow-2xl shadow-blue-500"
           />
         </div>
 
@@ -32,7 +32,7 @@ function Home() {
             href="https://www.linkedin.com/in/pustamrai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 text-3xl hover:text-blue-800 transition"
+            className="text-blue-500 text-3xl rounded-full shadow-lg hover:text-white transition-all duration-150 ease-in"
           >
             <FaLinkedin />
           </a>
@@ -40,7 +40,7 @@ function Home() {
             href="https://github.com/PustamRai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 text-3xl hover:text-gray-700 transition"
+            className="text-gray-100 text-3xl rounded-full shadow-lg hover:text-gray-500 transition-all duration-150 ease-in"
           >
             <FaGithub />
           </a>
