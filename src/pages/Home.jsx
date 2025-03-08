@@ -32,7 +32,7 @@ function Home() {
             href="https://www.linkedin.com/in/pustamrai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 text-3xl rounded-full shadow-lg hover:text-white transition-all duration-150 ease-in"
+            className="text-blue-500 text-3xl rounded-full shadow-lg hover:text-blue-300 transition-all duration-150 ease-in cursor-pointer"
           >
             <FaLinkedin />
           </a>
@@ -40,7 +40,7 @@ function Home() {
             href="https://github.com/PustamRai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-100 text-3xl rounded-full shadow-lg hover:text-gray-500 transition-all duration-150 ease-in"
+            className="text-gray-100 text-3xl rounded-full shadow-lg hover:text-gray-500 transition-all duration-150 ease-in cursor-pointer"
           >
             <FaGithub />
           </a>

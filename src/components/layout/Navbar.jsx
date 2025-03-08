@@ -15,7 +15,11 @@ function Navbar() {
         <NavLink
         to="/"
         >
-          <h2>logo</h2>
+          <img 
+          src="./logo.jpg" 
+          alt="logo" 
+          className='w-14 rounded-2xl cursor-pointer'
+          />
         </NavLink>
 
         {/* desktop menu */}
@@ -24,7 +28,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-800 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"}
               onClick={() => setIsOpen(false)}
               >
                 Home
@@ -33,7 +37,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/about"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-800 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"}
               onClick={() => setIsOpen(false)}
               >
                 about
@@ -42,7 +46,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/projects"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-800 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"}
               onClick={() => setIsOpen(false)}
               >
                 Projects
@@ -54,7 +58,7 @@ function Navbar() {
 
         {/* mobile menu button */}
         <button
-        className="text-2xl md:hidden"
+        className="text-2xl md:hidden cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <RxCross2 /> : <RxHamburgerMenu />}
@@ -73,7 +77,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"}
               onClick={() => setIsOpen(false)}
               >
                 Home
@@ -82,7 +86,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/about"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"}
               onClick={() => setIsOpen(false)}
               >
                 about
@@ -91,7 +95,7 @@ function Navbar() {
             <li>
               <NavLink
               to="/projects"
-              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl"}
+              className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"}
               onClick={() => setIsOpen(false)}
 
               >
