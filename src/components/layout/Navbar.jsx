@@ -40,7 +40,7 @@ function Navbar() {
               className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"}
               onClick={() => setIsOpen(false)}
               >
-                about
+                About
               </NavLink>
             </li>
             <li>
