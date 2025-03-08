@@ -89,7 +89,7 @@ function Navbar() {
               className={({isActive}) => isActive ? "text-orange-500" : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"}
               onClick={() => setIsOpen(false)}
               >
-                about
+                About
               </NavLink>
             </li>
             <li>
