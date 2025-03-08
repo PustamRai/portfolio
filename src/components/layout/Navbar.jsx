@@ -10,7 +10,7 @@ function Navbar() {
     className='bg-gray-900 text-gray-300'
     >
       <div
-      className='p-6 md:px-52 flex justify-between'
+      className='p-6 md:px-44 flex justify-between'
       >
         <NavLink
         to="/"

@@ -4,7 +4,7 @@ import { SiExpress, SiTailwindcss, SiMongodb } from "react-icons/si";
 
 function About() {
   return (
-    <div className="bg-gray-900 text-white  px-6 md:px-52 min-h-screen flex flex-col justify-center">
+    <div className="bg-gray-900 text-white  px-6 md:px-44min-h-screen flex flex-col justify-center">
       <div className="py-10 flex items-center gap-10">
         <div className="text-center">
           <h2 className="text-2xl md:text-4xl font-bold text-blue-500 mb-2 border-b-4 border-blue-600 inline-block pb-1">

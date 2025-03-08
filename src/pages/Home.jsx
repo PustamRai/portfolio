@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 function Home() {
   return (
     <div className="bg-gray-900 text-white">
-      <div className="py-10 p-10 md:px-52 min-h-screen">
+      <div className="py-10 p-10 md:px-44 min-h-screen">
         <div className="flex justify-center">
           <img
             src={ProfilePic}
