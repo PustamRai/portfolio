@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePic from "../assets/pustam.png";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 function Home() {
   return (
@@ -27,7 +27,7 @@ function Home() {
           turning ideas into reality.
         </p>
 
-        <div className="mt-6 flex space-x-6">
+        <div className="mt-6 flex items-center space-x-6">
           <a
             href="https://www.linkedin.com/in/pustamrai"
             target="_blank"
@@ -43,6 +43,14 @@ function Home() {
             className="text-gray-100 text-3xl rounded-full shadow-lg hover:text-gray-500 transition-all duration-150 ease-in cursor-pointer"
           >
             <FaGithub />
+          </a>
+          <a
+            href="mailto:pustamrai.info@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 text-3xl rounded-full shadow-lg hover:text-red-500 transition-all duration-150 ease-in cursor-pointer"
+          >
+            <FaEnvelope />
           </a>
         </div>
       </div>

@@ -7,7 +7,7 @@ function About() {
     <div className="bg-gray-900 text-white  px-6 md:px-44 min-h-screen flex flex-col justify-center">
       <div className="py-10 flex items-center gap-10">
         <div className="text-center">
-          <h2 className="text-2xl md:text-4xl font-bold text-blue-500 mb-2 border-b-4 border-blue-600 inline-block pb-1">
+          <h2 className="text-2xl md:text-4xl font-bold text-blue-500 mb-2 inline-block pb-1">
             About Me
           </h2>
           
@@ -18,8 +18,8 @@ function About() {
           </p>
 
           <div className="mt-15">
-          <h3 className="text-2xl md:text-4xl font-bold text-blue-500 mb-2 border-b-4 border-blue-600 inline-block pb-1">
-            Technical Skills
+          <h3 className="text-2xl md:text-4xl font-bold text-blue-500 mb-2  inline-block pb-1">
+            Code:Skills
           </h3>
             <div className="mt-3 grid grid-cols-3  md:grid-cols-4 gap-6 text-center">
               <div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-blue-500 transition-all duration-200 ease-in">

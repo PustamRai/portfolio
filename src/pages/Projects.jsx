@@ -1,5 +1,6 @@
 import React from "react";
 import { TbExternalLink } from "react-icons/tb";
+import { BsGithub } from "react-icons/bs";
 import { projects } from "../utils/projects.js";
 
 function Projects() {
@@ -33,9 +34,9 @@ function Projects() {
             <div className="flex gap-2 px-4 mt-3">
               {project.technologies.map((technology, idx) => (
                 <span key={idx}
-                className="bg-gray-500 rounded-2xl p-1 text-[12px]"
+                className="bg-green-500 rounded-2xl p-1 text-[12px]"
                 >
-                  {technology}1
+                  {technology}
                 </span>
               ))}
             </div>
@@ -45,16 +46,16 @@ function Projects() {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black p-2 rounded-2xl cursor-pointer font-bold hover:bg-blue-600 transition-all duration-150 ease-in"
+                className="text-3xl hover:text-gray-500 transition-all duration-150 ease-in cursor-pointer"
               >
-                github
+                <BsGithub />
               </a>
               <a 
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer">
                 <TbExternalLink  
-                className="text-3xl hover:text-blue-500 transition-all duration-150 ease-in"
+                className="text-3xl hover:text-blue-500 transition-all duration-150 ease-in cursor-pointer"
                 />
               </a>
             </div>
