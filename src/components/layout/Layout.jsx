@@ -8,7 +8,7 @@ function Layout() {
     <>
       <Navbar />
       <main
-      className="min-h-screen"
+      className="min-h-screen max-w-[1400px] mx-auto"
       >
         <Outlet />
       </main>

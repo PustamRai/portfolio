@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav
-    className='bg-gray-900 text-gray-300'
+    className='bg-gray-900 text-gray-300 max-w-[1400px] mx-auto'
     >
       <div
       className='p-6 md:px-44 flex justify-between'
