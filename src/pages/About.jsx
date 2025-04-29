@@ -7,10 +7,10 @@ function About() {
   return (
     <div className="bg-gray-900 text-white  px-6 md:px-44 min-h-screen flex flex-col py-6">
       <MetaData
-        title="About Me - Pustam Rai"
+        title="About Me | Pustam Rai"
         description="I'm Pustam Rai, a MERN Stack Developer passionate about building scalable web apps using React, Node, MongoDB, and more."
         keywords="Pustam Rai, MERN Developer, React, Node, MongoDB, Portfolio"
-        image="http://localhost:5173/logo2.jpg"
+        image="https://www.pustamrai.com.np/logo2.jpg"
       />
 
       <div className="py-10 flex items-center gap-10">

@@ -1,10 +1,18 @@
 import React from "react";
 import ProfilePic from "../assets/pustam.png";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import MetaData from "../components/metadata/MetaData";
 
 function Home() {
   return (
     <div className="bg-gray-900 text-white">
+      <MetaData
+        title="Pustam Rai | MERN Stack Developer Portfolio"
+        description="Welcome to the portfolio of Pustam Rai, a passionate MERN Stack Developer specializing in MongoDB, Express, React, and Node.js. Discover my projects, skills, and contact information."
+        keywords="Pustam Rai, MERN Stack Developer, Full Stack Developer, React Developer, Node.js, MongoDB, Express.js, Portfolio, Web Developer Nepal"
+        image="https://www.pustamrai.com.np/logo2.jpg"
+      />
+      
       <div className="py-10 p-10 md:px-44 min-h-screen">
         <div className="flex justify-center">
           <img

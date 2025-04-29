@@ -2,10 +2,18 @@ import React from "react";
 import { TbExternalLink } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
 import { projects } from "../utils/projects.js";
+import MetaData from "../components/metadata/MetaData.jsx";
 
 function Projects() {
   return (
     <div className=" bg-gray-900 text-white  px-6 md:px-44 min-h-screen">
+      <MetaData
+        title="Projects | Pustam Rai - MERN Stack Developer"
+        description="Explore the web development projects built by Pustam Rai using the MERN stack (MongoDB, Express, React, Node.js). From full-stack applications to creative frontend designs."
+        keywords="Pustam Rai projects, MERN stack projects, React apps, Node.js projects, MongoDB applications, web development portfolio, frontend projects, full stack portfolio"
+        image="https://www.pustamrai.com.np/logo2.jpg"
+      />
+
       <h2 className="flex justify-center py-4 text-2xl mb-">My recent work</h2>
 
       <div className="md:w-3xl grid grid-cols-1 md:grid-cols-2 gap-6">
