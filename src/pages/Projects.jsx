@@ -6,7 +6,7 @@ import MetaData from "../components/metadata/MetaData.jsx";
 
 function Projects() {
   return (
-    <div className=" bg-gray-900 text-white  px-6 md:px-44 min-h-screen">
+    <div className=" bg-gray-900 text-white  px-6 py-4 md:px-44 min-h-screen">
       <MetaData
         title="Projects | Pustam Rai - MERN Stack Developer"
         description="Explore the web development projects built by Pustam Rai using the MERN stack (MongoDB, Express, React, Node.js). From full-stack applications to creative frontend designs."
@@ -37,7 +37,7 @@ function Projects() {
               {project.technologies.map((technology, idx) => (
                 <span
                   key={idx}
-                  className="bg-green-500 rounded-2xl p-1 text-[12px]"
+                  className="bg-green-500 rounded-sm p-1 text-[12px]"
                 >
                   {technology}
                 </span>
