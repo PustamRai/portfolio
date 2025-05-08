@@ -5,7 +5,7 @@ import MetaData from "../components/metadata/MetaData";
 
 function Home() {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900 text-white pt-24">
       <MetaData
         title="Pustam Rai | MERN Stack Developer Portfolio"
         description="Welcome to the portfolio of Pustam Rai, a passionate MERN Stack Developer specializing in MongoDB, Express, React, and Node.js. Discover my projects, skills, and contact information."

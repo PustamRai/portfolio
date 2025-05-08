@@ -6,7 +6,7 @@ import MetaData from "../components/metadata/MetaData.jsx";
 
 function Projects() {
   return (
-    <div className=" bg-gray-900 text-white  px-6 py-4 md:px-44 min-h-screen">
+    <div className=" bg-gray-900 text-white  px-6 py-4 md:px-44 min-h-screen pt-24">
       <MetaData
         title="Projects | Pustam Rai - MERN Stack Developer"
         description="Explore the web development projects built by Pustam Rai using the MERN stack (MongoDB, Express, React, Node.js). From full-stack applications to creative frontend designs."

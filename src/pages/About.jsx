@@ -5,7 +5,7 @@ import MetaData from "../components/metadata/MetaData";
 
 function About() {
   return (
-    <div className="bg-gray-900 text-white  px-6 md:px-44 min-h-screen flex flex-col py-6">
+    <div className="bg-gray-900 text-white  px-6 md:px-44 min-h-screen flex flex-col py-6 pt-24">
       <MetaData
         title="About Me | Pustam Rai"
         description="I'm Pustam Rai, a MERN Stack Developer passionate about building scalable web apps using React, Node, MongoDB, and more."
