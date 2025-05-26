@@ -66,18 +66,9 @@ function Home() {
         </div>
 
         {/* web view */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block sm:mt-16">
           <div className="flex gap-12 justify-center items-center ">
             {/* left */}
-            <div className="flex justify-center">
-              <img
-                src={ProfilePic}
-                alt="profilePic"
-                className="h-[540px] rounded-sm object-cover shadow-lg"
-              />
-            </div>
-
-            {/* right */}
             <div className="">
               <h1 className="py-6 text-3xl md:text-4xl font-bold text-gray-200 mt-4">
                 Hi, I'm <span className="text-blue-600">Pustam Rai</span>
@@ -118,6 +109,15 @@ function Home() {
                   <FaEnvelope />
                 </a>
               </div>
+            </div>
+
+            {/* right */}
+            <div className="flex justify-center">
+              <img
+                src={ProfilePic}
+                alt="profilePic"
+                className="w-30 h-auto md:w-50 rounded-full  shadow-2xl shadow-blue-500"
+              />
             </div>
           </div>
         </div>
