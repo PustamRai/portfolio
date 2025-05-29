@@ -19,7 +19,7 @@ function Home() {
           <img
             src={ProfilePic}
             alt="profilePic"
-            className="w-30 h-auto md:w-50 rounded-full  shadow-2xl shadow-blue-500"
+            className="w-30 h-30 md:w-52 md:h-52 rounded-full  shadow-2xl shadow-blue-500 object-cover"
           />
         </div>
 
@@ -116,7 +116,7 @@ function Home() {
               <img
                 src={ProfilePic}
                 alt="profilePic"
-                className="w-30 h-auto md:w-50 rounded-full  shadow-2xl shadow-blue-500"
+                className="sm:w-52 sm:h-52 rounded-full  shadow-2xl shadow-blue-500 object-cover"
               />
             </div>
           </div>
