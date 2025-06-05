@@ -28,13 +28,15 @@ function Home() {
             Hi, I'm <span className="text-blue-600">Pustam Rai</span>
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mt-2">
-            MERN Stack Developer
+            Full-Stack Developer | Clean UI + Robust Backend
           </h2>
 
           <p className="text-gray-200 mt-4 max-w-lg">
-            I'm passionate about building high-performance web applications
-            using MongoDB, Express, React, and Node.js. I love solving problems
-            and turning ideas into reality.
+            I'm passionate about building scalable, high-performance web
+            applications. On the backend, I work with Node.js, Express, and
+            MongoDB to develop robust APIs and server-side logic. On the
+            frontend, I use React, Next.js, and TypeScript to create clean,
+            responsive, and user-friendly interfaces.
           </p>
 
           <div className="mt-6 flex items-center space-x-6">
@@ -74,13 +76,15 @@ function Home() {
                 Hi, I'm <span className="text-blue-600">Pustam Rai</span>
               </h1>
               <h2 className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mt-2">
-                MERN Stack Developer
+                Full-Stack Developer | Clean UI + Robust Backend
               </h2>
 
-              <p className="text-gray-200 mt-4 max-w-lg">
-                I'm passionate about building high-performance web applications
-                using MongoDB, Express, React, and Node.js. I love solving
-                problems and turning ideas into reality.
+              <p className="text-gray-200  mt-4 max-w-lg">
+                I'm passionate about building scalable, high-performance web
+                applications. On the backend, I work with Node.js, Express, and
+                MongoDB to develop robust APIs and server-side logic. On the
+                frontend, I use React, Next.js, and TypeScript to create clean,
+                responsive, and user-friendly interfaces.
               </p>
 
               <div className="mt-6 flex items-center space-x-6">
