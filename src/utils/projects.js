@@ -9,7 +9,7 @@ export const projects = [
     image: eBookImage,
     description:
       "eBook is a full-stack web application built with Next.js 15 (App Router) that allows users to sign up, log in, upload, and browse digital books (PDFs). It features secure authentication using JWT, file uploads with Cloudinary",
-    technologies: ["TypeScript", "MongoDB", "Cloudinary", "Tailwind CSS"],
+    technologies: ["Nextjs", "TypeScript", "MongoDB", "Cloudinary"],
     link: "https://ebook-digital.vercel.app",
     github: "https://github.com/PustamRai/eBooks",
   },
