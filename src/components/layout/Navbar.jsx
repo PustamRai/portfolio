@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="text-gray-300 max-w-[1400px] mx-auto fixed top-0 left-0 right-0 z-10 bg-gray-900/30 backdrop-blur-sm">
-      <div className="p-6 md:px-44 flex justify-between">
+      <div className="p-3 md:px-44 flex justify-between">
         <NavLink to="/">
           <img
             src="./logo.jpg"
@@ -25,7 +25,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer transition-all duration-150 ease-in"
                 }
                 onClick={() => setIsOpen(false)}
               >
@@ -38,7 +38,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer transition-all duration-150 ease-in"
                 }
                 onClick={() => setIsOpen(false)}
               >
@@ -51,7 +51,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer transition-all duration-150 ease-in"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer transition-all duration-150 ease-in"
                 }
                 onClick={() => setIsOpen(false)}
               >
@@ -80,7 +80,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer"
                 }
                 onClick={() => setIsOpen(false)}
               >
@@ -93,7 +93,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer"
                 }
                 onClick={() => setIsOpen(false)}
               >
@@ -106,7 +106,7 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "text-orange-500"
-                    : "hover:bg-gray-700 p-3 rounded-b-2xl cursor-pointer"
+                    : "hover:bg-gray-700 p-3 rounded-2xl cursor-pointer"
                 }
                 onClick={() => setIsOpen(false)}
               >
