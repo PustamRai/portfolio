@@ -23,15 +23,6 @@ export const projects = [
     github: "https://github.com/PustamRai/dokan",
   },
   {
-    title: "Product Management",
-    image: ProductStoreImage,
-    description:
-      "It is a simple MERN application for managing products efficiently. It allows users to add, update, delete, and view products with seamless Cloudinary image uploads using Multer. This project ensures a smooth and dynamic product management experience.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
-    link: "https://product-store-gamma.vercel.app",
-    github: "https://github.com/PustamRai/productStore",
-  },
-  {
     title: "Todo App",
     image: TodoAppImage,
     description:
