@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaGitAlt, FaJsSquare } from "react-icons/fa";
 import { SiExpress, SiTailwindcss, SiMongodb } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 import MetaData from "../components/metadata/MetaData";
 
 function About() {
@@ -32,6 +33,10 @@ function About() {
               Code:Skills
             </h3>
             <div className="mt-3 grid grid-cols-3  md:grid-cols-4 gap-6 text-center">
+              <div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-gray-700 transition-all duration-200 ease-in">
+                <RiNextjsFill className="text-black text-3xl mx-auto" />
+                <p className="mt-2 text-sm">Next.js</p>
+              </div>
               <div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-blue-500 transition-all duration-200 ease-in">
                 <FaReact className="text-blue-400 text-3xl mx-auto" />
                 <p className="mt-2 text-sm">React.js</p>
