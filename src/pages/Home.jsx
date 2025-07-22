@@ -58,7 +58,7 @@ function Home() {
               <FaGithub />
             </a>
             <a
-              href="mailto:pustamrai.info@gmail.com"
+              href="mailto:pustamrai82@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-red-400 text-3xl rounded-full shadow-lg hover:text-red-500 transition-all duration-150 ease-in cursor-pointer"
